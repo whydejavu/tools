@@ -77,7 +77,7 @@
   /*--------------------------
     Intro Title Text Effect
   ---------------------------- */
-  var str = 'SEO OPTIMIZATION';
+  var str = 'Tools Chain';
   var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
   $(spans).hide().appendTo('.intro-title').each(function (i) {
     $(this).delay(100 * i).css({
